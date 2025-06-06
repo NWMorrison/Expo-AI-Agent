@@ -36,7 +36,6 @@ export default function RootLayout() {
     return null;
   }
 
-  const clerk_key = "pk_test_c21vb3RoLXBhcmFrZWV0LTU5LmNsZXJrLmFjY291bnRzLmRldiQ";
 
   if(!clerk_key){
     throw new Error('Clerk key missing');
